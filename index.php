@@ -41,7 +41,7 @@
 
 			echo "Seleccione el mes y año que desea monitorear: <br><br>"; 
 		?>
-		<form action="Cliente.php" method="POST">
+		<form action="index.php" method="POST">
 		<center><select name="mes">
 		        <?php
 		        for ($i=1; $i<=12; $i++) {
